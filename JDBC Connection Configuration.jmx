@@ -31,10 +31,10 @@
           <stringProp name="checkQuery">select 1</stringProp>
           <stringProp name="connectionAge">5000</stringProp>
           <stringProp name="dataSource">test_61</stringProp>
-          <stringProp name="dbUrl">jdbc:sqlserver://121.12.120.61:1433;DatabaseName=gpallas;</stringProp>
+          <stringProp name="dbUrl">jdbc:sqlserver://127.0.0.1:1433;DatabaseName=test0001;</stringProp>
           <stringProp name="driver">com.microsoft.sqlserver.jdbc.SQLServerDriver</stringProp>
           <boolProp name="keepAlive">true</boolProp>
-          <stringProp name="password">wgPaL@30299HK!BMN</stringProp>
+          <stringProp name="password">test0001</stringProp>
           <stringProp name="poolMax">10</stringProp>
           <stringProp name="timeout">10000</stringProp>
           <stringProp name="transactionIsolation">DEFAULT</stringProp>
@@ -44,7 +44,7 @@
         <hashTree/>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request" enabled="true">
           <stringProp name="dataSource">test_61</stringProp>
-          <stringProp name="query">SELECT * from gPallas.dbo.wp_Organization</stringProp>
+          <stringProp name="query">SELECT * from test0001.dbo.wp_Organization</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="queryTimeout"></stringProp>
